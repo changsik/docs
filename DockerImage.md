@@ -15,12 +15,18 @@ docker commit ubuntu_custom ubuntu:18.04.C
 docker login
 </pre>
 
-#### 2. 이미지 태그 달기 (tag)
+#### 3. 이미지 태그 달기 (tag)
 <pre>
 docker tag local-image:tagname new-repo:tagname
-docker push new-repo:tagname
 </pre>
 <pre>
 docker tag ubuntu:18.04.C kcsic/ubuntu:18.04.C
+</pre>
+
+#### 4. 이미지 태그 푸쉬 (push)
+<pre>
+docker push new-repo:tagname
+</pre>
+<pre>
 docker push kcsic/ubuntu:18.04.C
 </pre>
