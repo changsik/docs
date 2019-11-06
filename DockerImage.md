@@ -3,7 +3,9 @@
 https://nicewoong.github.io/development/2018/03/06/docker-commit-container/
 
 #### 1. 이미지 생성 (commit)
-###### docker commit CONTAINER IMAGE_NAME
+<pre>
+docker commit CONTAINER IMAGE_NAME
+</pre>
 <pre>
 docker commit ubuntu_custom ubuntu:18.04.C
 </pre>
