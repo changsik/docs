@@ -1,5 +1,7 @@
 # Git 사용법
 
+https://tagilog.tistory.com/377
+
 ##### 1. git config 사용자정보 설정
 <pre>
 git config --global user.email [이메일 주소]
